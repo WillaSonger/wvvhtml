@@ -1,18 +1,96 @@
 body{
 
+margin:0;
+
 background:#fff8f0;
 
-font-family:
-Arial;
+font-family:Arial;
+
+}
+
+
+/*整体布局*/
+
+.container{
+
+display:flex;
+
+height:100vh;
+
+}
+
+
+/*左侧目录*/
+
+.sidebar{
+
+width:220px;
+
+background:#fff;
+
+padding:30px;
+
+border-right:2px solid #eee;
+
+}
+
+
+/*目录按钮*/
+
+.sidebar button{
+
+width:100%;
+
+padding:15px;
+
+margin-bottom:15px;
+
+border:none;
+
+border-radius:15px;
+
+background:#fff5df;
+
+font-size:18px;
+
+cursor:pointer;
+
+}
+
+
+/*鼠标经过*/
+
+.sidebar button:hover{
+
+background:#ffe6b8;
+
+}
+
+
+
+/*右侧区域*/
+
+.content{
+
+flex:1;
+
+padding:40px;
 
 text-align:center;
 
 }
 
 
-h1{
 
-color:#555;
+#page{
+
+margin-top:40px;
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
 
 }
 
@@ -21,14 +99,10 @@ a{
 
 display:block;
 
-margin:20px;
+margin:15px;
 
-padding:15px;
+color:#555;
 
-background:white;
-
-border-radius:15px;
-
-text-decoration:none;
+font-size:18px;
 
 }
