@@ -84,6 +84,32 @@ page.innerHTML=
 
 }
 
+else if(type=="frequency"){
+page.innerHTML=
+`
+<h2>
+☑ 常用网址
+</h2>
+<a href="https://onetouch.alibaba.com/moBasedata/luyou/home/act/icbu_rules/index">
+阿里公告更新
+</a>
+`;
+}
+
+else if(type=="zipzip"){
+page.innerHTML=
+`
+<h2>
+∞ 压缩网址
+</h2>
+<a href="https://ywange.com/tool">
+ 外贸人工具网
+</a>
+<a href="https://www.amz123.com/">
+AMZ123
+</a>
+`;
+}
 
 
 }
